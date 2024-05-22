@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+.divUpload{
+    width: 300px;
+    height: 150px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 30px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+    position: relative;
+}
+
+.icon{
+    color: darkblue;
+    font-size: 34px;
+}
+
+.divUpload h2{
+    color: darkblue;
+    margin-top: 0;
+}
+
+.divUpload--selected{
+    border: 2px solid darkgreen;
+}
+
+.divUpload--selected .icon{
+    color: darkgreen;
+}
+
+.divUpload--selected h2{
+    color: darkgreen;
+}
+
+.iconClose{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    font-size: 22px;
+    color: rgb(78, 78, 78);
+}
+
+.hide{
+    display: none;
+}
